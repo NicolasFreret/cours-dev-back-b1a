@@ -1,6 +1,6 @@
 <?php
 
-$login =  !isset($_SESSION['user']) ? '<a class="'.$page == "login" ? 'active' : '' .'" href="'.config()->home_url.'/login/?url='.$url.'">Login</a>' : '';
+$login = !isset($_SESSION['user']) ? '<a class="'.$page == "login" ? 'active' : '' .'" href="'.config()->home_url.'/login/?url='.$url.'">Login</a>' : '';
 
 ?>
 
